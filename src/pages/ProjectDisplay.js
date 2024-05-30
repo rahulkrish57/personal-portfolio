@@ -10,11 +10,19 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} />
+      <img src={project.image} width={400} height={400} />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      <a
+        href={`https://www.github.com/rahulkrish57/${project.url}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="cursor-pointer"
+      >
+        {" "}
+        <GitHubIcon />
+      </a>
     </div>
   );
 }

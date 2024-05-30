@@ -8,12 +8,37 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
-        <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+        <h2> Hi, I am Rahulkrishnan</h2>
+        <div className="prompt text-jsutify">
+          <p> Experienced Full Stack Developer proficient in MERN stack.</p>
+
+          <span>
+            <a
+              href="https://www.linkedin.com/in/rahulkrish57"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
+          </span>
+          <span>
+            <a
+              href="mailto:rahulkrishdev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <EmailIcon />
+            </a>
+          </span>
+          <span>
+          <a
+              href="https://www.github.com/rahulkrish57"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <GithubIcon />
+            </a>
+          </span>
         </div>
       </div>
       <div className="skills">
@@ -22,20 +47,20 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Nextjs, HTML, CSS, NPM,
+              BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+              NodeJS, ExpressJS, MongoDB,
+              MySQL, AWS S3, EC2, EKS, ECR
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>JavaScript</span>
           </li>
         </ol>
       </div>
