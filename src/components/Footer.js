@@ -1,9 +1,7 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 import "../styles/Footer.css";
 
 function Footer() {
@@ -11,39 +9,25 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <a
-          href="https://www.instagram.com/iamrahulk57"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <InstagramIcon />
-        </a>
-        <a
-          href="https://www.x.com/rahulkrishna57"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <TwitterIcon />
-        </a>
-        <a
           href="mailto:rahulkrishdev@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <EmailIcon />
+          <MdEmail />
         </a>
         <a
           href="https://www.github.com/rahulkrish57"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GithubIcon />
+          <FaGithub />
         </a>
         <a
           href="https://www.linkedin.com/in/rahulkrish57"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedInIcon />
+          <FaLinkedin />
         </a>
       </div>
       <p> &copy; {new Date().getFullYear()} rahulkrishnan.dev</p>

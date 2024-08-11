@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -20,7 +20,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          <ReorderIcon />
+          <GiHamburgerMenu />
         </button>
       </div>
       <div className="links">

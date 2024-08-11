@@ -1,7 +1,6 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import "../styles/Home.css";
 
 function Home() {
@@ -18,7 +17,7 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <LinkedInIcon />
+              <FaLinkedin />
             </a>
           </span>
           <span>
@@ -27,7 +26,7 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <EmailIcon />
+              <MdEmail />
             </a>
           </span>
           <span>
@@ -36,7 +35,7 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <GithubIcon />
+            <FaGithub />
             </a>
           </span>
         </div>

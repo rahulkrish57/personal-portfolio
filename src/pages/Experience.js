@@ -4,8 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import { IoSchool } from "react-icons/io5";
+import { MdWork } from "react-icons/md";
 
 function Experience() {
   return (
@@ -15,7 +15,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2013 - 2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<IoSchool />}
         >
           <h3 className="vertical-timeline-element-title">
             Coimbatore Institute of Engineering and Technology, Coimbatore
@@ -31,7 +31,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2017 - 2021"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">
             Graphic Designer - AG Resources India Pvt Ltd (Personiv)
@@ -50,7 +50,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2021 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">
             Full Stack Developer - TalenQ Software India Pvt Ltd

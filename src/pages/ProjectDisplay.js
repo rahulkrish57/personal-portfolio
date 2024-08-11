@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LaunchIcon from "@material-ui/icons/Launch";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -23,7 +23,7 @@ function ProjectDisplay() {
           className="cursor-pointer"
         >
           {" "}
-          <GitHubIcon />
+          <FaGithub />
         </a>
         <a
           href={project.url}
@@ -32,7 +32,7 @@ function ProjectDisplay() {
           className="cursor-pointer"
         >
           {" "}
-          <LaunchIcon />
+          <FaExternalLinkAlt />
         </a>
       </div>
     </div>
